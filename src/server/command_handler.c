@@ -6,7 +6,7 @@
 /*   By: vrybalko <vrybalko@student.unit.ua>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/09/04 20:51:39 by vrybalko          #+#    #+#             */
-/*   Updated: 2018/09/04 21:45:35 by vrybalko         ###   ########.fr       */
+/*   Updated: 2018/09/08 16:06:19 by vrybalko         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,13 +29,13 @@ static const char		*g_commands[] = {
 	"screen shot",
 	"show screen shots",
 	"weather",
-	"backlight",
+	"light",
 	"play music",
 	"history",
 	"flip coin",
 	"crystal ball",
 	"roll dice",
-	"sing song",
+	"sing",
 	"tell something",
 	"tell joke",
 	NULL
