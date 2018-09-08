@@ -6,7 +6,7 @@
 /*   By: dmulish <dmulish@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/08/26 19:04:02 by dmulish           #+#    #+#             */
-/*   Updated: 2018/09/04 20:51:39 by vrybalko         ###   ########.fr       */
+/*   Updated: 2018/09/08 17:39:08 by vrybalko         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ char		*get_user_speech(void)
 	config = cmd_ln_init(NULL, ps_args(), TRUE,
 			"-hmm", DICTDIR "en-us-adapt",
 			"-lm", MODELDIR "/en-us/en-us.lm.bin",
-			"-dict", DICTDIR "dict2.dic",
+			"-dict", DICTDIR "dict.dic",
 			"-logfn", "/dev/null", NULL);
 	if (config == NULL)
 	{
