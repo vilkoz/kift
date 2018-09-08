@@ -6,7 +6,7 @@
 /*   By: vrybalko <vrybalko@student.unit.ua>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/09/04 20:51:39 by vrybalko          #+#    #+#             */
-/*   Updated: 2018/09/08 16:06:19 by vrybalko         ###   ########.fr       */
+/*   Updated: 2018/09/08 16:21:58 by vrybalko         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,7 @@ static const char		*g_commands[] = {
 	"light",
 	"play music",
 	"history",
-	"flip coin",
+	"flip",
 	"crystal ball",
 	"roll dice",
 	"sing",
